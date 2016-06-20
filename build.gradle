@@ -23,19 +23,5 @@ task clean(type: Delete) {
 
 // 各グローバル設定
 ext {
-
-/**
- * SDKをソースコード単位でビルドする場合はtrueを指定する。
- * 下記のコマンドを実行し、ライブラリがリンクしているsubmoduleを全て同期しなければならない。
- * ./script/developer-sync-sdk.sh
- */
-ext.EGLIBRARY_COMPILE_LOCAL = true                       // ローカルでライブラリをビルドする
-ext.EGLIBRARY_COMPILE_PROJECT_JAVA_GEO = true            // GEOHASH等を利用する
-ext.EGLIBRARY_COMPILE_PROJECT_ANDROID_BLUETOOTH = false  // Bluetoothを利用する
-ext.EGLIBRARY_COMPILE_PROJECT_ANDROID_EGL = false        // OpenGLを利用する
-ext.EGLIBRARY_COMPILE_PROJECT_ANDROID_CANVAS = false      // Canvasでの自力レンダリングを利用する
-ext.EGLIBRARY_COMPILE_PROJECT_ANDROID_FRAMEWORK = false   // アプリフレームワークを使用する
-ext.EGLIBRARY_COMPILE_PROJECT_PLUGINS = false            // プラグインプロジェクトを使用する
-
 }
-apply from: "eglibrary/projects.gradle"
+apply plugin: "idea"
