@@ -6,7 +6,8 @@ ext.EGLIBRARY_COMPILE_PROJECT_ANDROID_BLUETOOTH = false  // Bluetoothを利用�
 ext.EGLIBRARY_COMPILE_PROJECT_ANDROID_EGL = false        // OpenGLを利用する
 ext.EGLIBRARY_COMPILE_PROJECT_ANDROID_CANVAS = false      // Canvasでの自力レンダリングを利用する
 ext.EGLIBRARY_COMPILE_PROJECT_ANDROID_CAMERA = false      // カメラ制御
-ext.EGLIBRARY_COMPILE_PROJECT_ANDROID_FRAMEWORK = false   // アプリフレームワークを使用する
+ext.EGLIBRARY_COMPILE_PROJECT_ANDROID_FRAMEWORK = false               // アプリフレームワークを使用する
+ext.EGLIBRARY_COMPILE_PROJECT_ANDROID_FRAMEWORK_PLAYSERVICE = false   // Play Serviceを使用する
 ext.EGLIBRARY_COMPILE_PROJECT_PLUGINS = true              // プラグインプロジェクトを使用する
 
 apply from: "eglibrary/projects.gradle"
