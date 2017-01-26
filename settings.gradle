@@ -1,13 +1,11 @@
-
-ext.EGLIBRARY_COMPILE_LOCAL = true                       // ローカルでライブラリをビルドする
-ext.EGLIBRARY_COMPILE_PROJECT_JAVA_GEO = true            // GEOHASH等を利用する
-ext.EGLIBRARY_COMPILE_PROJECT_ANDROID = false            // Android関連は不要
-ext.EGLIBRARY_COMPILE_PROJECT_ANDROID_BLUETOOTH = false  // Bluetoothを利用する
-ext.EGLIBRARY_COMPILE_PROJECT_ANDROID_EGL = false        // OpenGLを利用する
-ext.EGLIBRARY_COMPILE_PROJECT_ANDROID_CANVAS = false      // Canvasでの自力レンダリングを利用する
-ext.EGLIBRARY_COMPILE_PROJECT_ANDROID_CAMERA = false      // カメラ制御
-ext.EGLIBRARY_COMPILE_PROJECT_ANDROID_FRAMEWORK = false               // アプリフレームワークを使用する
-ext.EGLIBRARY_COMPILE_PROJECT_ANDROID_FRAMEWORK_PLAYSERVICE = false   // Play Serviceを使用する
-ext.EGLIBRARY_COMPILE_PROJECT_PLUGINS = true              // プラグインプロジェクトを使用する
-
-apply from: "eglibrary/projects.gradle"
+include ':eglibrary:simple-logger'
+include ':eglibrary:simple-utils'
+include ':eglibrary:simple-serialize'
+include ':eglibrary:json-wrapper'
+include ':eglibrary:junit-support'
+include ':eglibrary:geo-utils'
+include ':eglibrary:gradle-plugin-utils'
+include ':eglibrary:plugin-ci-support'
+include ':eglibrary:plugin-android-dbgenerator'
+include ':eglibrary:plugin-android-mipmap'
+include ':eglibrary:plugin-firebase-remoteconfig'
