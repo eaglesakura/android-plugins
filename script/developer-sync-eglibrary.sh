@@ -12,7 +12,6 @@ repo_sync() {
 
     git clean -f
     git fetch
-    git branch -d $2
     git checkout -f $2
     git pull origin $2
     git branch
