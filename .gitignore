@@ -6,6 +6,5 @@ cygdrive/
 *.iml
 /ci-release
 /maven
-/eglibrary
 *.ipr
 *.iws

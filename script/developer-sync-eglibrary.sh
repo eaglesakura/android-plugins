@@ -18,17 +18,11 @@ repo_sync() {
     cd ..
 }
 
-repo_sync "geo-utils" "develop"
-repo_sync "json-wrapper" "develop"
-repo_sync "simple-logger" "develop"
-repo_sync "simple-serialize" "develop"
-repo_sync "simple-utils" "develop"
-repo_sync "junit-support" "develop"
-
 repo_sync "gradle-plugin-utils" "develop"
 repo_sync "plugin-ci-support" "develop"
 repo_sync "plugin-android-dbgenerator" "develop"
 repo_sync "plugin-android-mipmap" "develop"
 repo_sync "plugin-firebase-remoteconfig" "develop"
+repo_sync "sloth-plugin" "develop"
 
 cd ../

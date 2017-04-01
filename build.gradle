@@ -1,8 +1,9 @@
 buildscript {
     repositories {
-        maven { url "http://eaglesakura.github.io/maven/" }
         jcenter()
         mavenCentral()
+        maven { url "bintray.com/eaglesakura/maven/" }
+        maven { url "http://eaglesakura.github.io/maven/" }
     }
 
     dependencies {
@@ -11,9 +12,10 @@ buildscript {
 
 allprojects {
     repositories {
-        maven { url "http://eaglesakura.github.io/maven/" }
         jcenter()
         mavenCentral()
+        maven { url "bintray.com/eaglesakura/maven/" }
+        maven { url "http://eaglesakura.github.io/maven/" }
     }
 }
 
