@@ -1,6 +1,21 @@
-[submodule "eglibrary/java-commons"]
-	path = eglibrary/java-commons
-	url = git@github.com:eaglesakura/java-commons.git
+[submodule "eglibrary/simple-logger"]
+	path = eglibrary/simple-logger
+	url = git@github.com:eaglesakura/simple-logger.git
+[submodule "eglibrary/simple-utils"]
+	path = eglibrary/simple-utils
+	url = git@github.com:eaglesakura/simple-utils.git
+[submodule "eglibrary/simple-serialize"]
+	path = eglibrary/simple-serialize
+	url = git@github.com:eaglesakura/simple-serialize.git
+[submodule "eglibrary/json-wrapper"]
+	path = eglibrary/json-wrapper
+	url = git@github.com:eaglesakura/json-wrapper.git
+[submodule "eglibrary/geo-utils"]
+	path = eglibrary/geo-utils
+	url = git@github.com:eaglesakura/geo-utils.git
+[submodule "eglibrary/junit-support"]
+	path = eglibrary/junit-support
+	url = git@github.com:eaglesakura/junit-support.git
 [submodule "eglibrary/plugin-ci-support"]
 	path = eglibrary/plugin-ci-support
 	url = git@github.com:eaglesakura/plugin-ci-support.git
