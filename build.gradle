@@ -2,8 +2,7 @@ buildscript {
     repositories {
         jcenter()
         mavenCentral()
-        maven { url "bintray.com/eaglesakura/maven/" }
-        maven { url "http://eaglesakura.github.io/maven/" }
+        maven { url "https://dl.bintray.com/eaglesakura/maven/" }
     }
 
     dependencies {
@@ -14,8 +13,7 @@ allprojects {
     repositories {
         jcenter()
         mavenCentral()
-        maven { url "bintray.com/eaglesakura/maven/" }
-        maven { url "http://eaglesakura.github.io/maven/" }
+        maven { url "https://dl.bintray.com/eaglesakura/maven/" }
     }
 }
 
@@ -25,5 +23,6 @@ task clean(type: Delete) {
 
 // 各グローバル設定
 ext {
+    EGLIBRARY_COMPILE_LOCAL = true
 }
 apply plugin: "idea"

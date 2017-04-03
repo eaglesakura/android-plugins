@@ -1,6 +1,6 @@
+ext.EGLIBRARY_COMPILE_LOCAL = true
+
 include ':eglibrary:gradle-plugin-utils'
 include ':eglibrary:plugin-ci-support'
-include ':eglibrary:plugin-android-dbgenerator'
 include ':eglibrary:plugin-android-mipmap'
-include ':eglibrary:plugin-firebase-remoteconfig'
 include ':eglibrary:sloth-plugin'
