@@ -13,3 +13,6 @@
 [submodule "eglibrary/plugin-android-dbgenerator"]
 	path = eglibrary/plugin-android-dbgenerator
 	url = git@github.com:eaglesakura/plugin-android-dbgenerator.git
+[submodule "eglibrary/sloth-plugin"]
+	path = eglibrary/sloth-plugin
+	url = git@github.com:eaglesakura/sloth-plugin.git
